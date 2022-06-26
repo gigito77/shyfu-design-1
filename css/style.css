@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Overpass:wght@300;400&family=Roboto:ital,wght@1,300&display=swap');
 
 
-/* base classes for fonts */
+/* base classes*/
 .font-r{
     font-family: 'Roboto'
 }
@@ -18,26 +18,50 @@
 }
 
 /* other styles */
-.container{
+.container{  /* container for help to keep sturcture  */
     width: 1240px;
     height: 90px;
     margin-left: auto;
     margin-right: auto;
 }
+
+/* navigation bar content styles */
 .navigation-bar-style{
     color: black;
     font-size: 18px;
 }
 
+.navigation-bar-style:hover::after{
+    content:"";
+    display: block;
+    width: 42%;
+    height: 4px;
+    background-color: #E93737;   
+    
+}
+
+.navigation-bar-style:hover{
+    color: #E93737;
+
+}
+.navigation-bar-style:hover::before{
+    content: "";
+    display: block;
+    width: 42%;
+    height: 4px;
+}
 
 .nav-content{
     margin-left: 50px;
 }
 
+
+/* logo style */ 
 .logo-img{
    vertical-align: middle;
 }
 
+/* header link button styles  */
 .header-link-button{
     color: white;
     font-size: 14px;
@@ -62,6 +86,8 @@
     justify-content: center;
 
 }
+
+/* header element structure */
 .header-flexing{
     display: flex;
     justify-content: space-between;
