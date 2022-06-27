@@ -306,3 +306,30 @@
     color: white;
     background-color: #E93737;
 }
+
+/* section 1 div 2 creator section style */
+
+.sec-1-div-2-creator-content{
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+
+.sec-1-div-2-creator-sec-div{
+    margin-top: 121px;
+    
+    margin-left: 125px;
+}
+
+.sec-1-div-2-creator-img-bottom-content{
+    background-color: white;
+    width: 190px;
+    height: 53px;
+    margin-top: -10px;
+}
+.test{
+    vertical-align: bottom;
+}
