@@ -102,11 +102,10 @@
 /* arrow style */
 /* .long-arrow-right{
     display: block;
-    margin: 30px auto;
     width: 20px;
     height: 20px;
-    border-top: 2px solid #000;
-    border-left: 2px solid #000;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
 }
 .long-arrow-right{
  transform: rotate(45deg);
@@ -116,14 +115,26 @@
     display: block;
     width: 2px;
     height: 100px;
-    background-color: black;
+    background-color: white;
     transform: rotate(-45deg) translate(34.5px, 13px);
   
+}
+.long-arrow-right{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
 } */
 
 
+/* section 1 styles */
 .section-1{
     background: linear-gradient(112.82deg, #B53737 0%, #D72626 100%);
+}
+
+.sec1-div1{
+    color: white;
 }
 
 .sec-1-content-1{
@@ -132,10 +143,67 @@
     font-weight: 700px;
     line-height: 63px;
     color: white;
+    padding-top: 115px;
+    
 }
 
+.sec-1-content-2{
+    width: 474px;
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 21px;
+    margin-top: 31px;
+    margin-bottom: 30px;
+}
 
+/* right arrow styles in 1 section 1 div */
+.sec-1-long-arrow-right{
+    display: block;
+    margin-left: 459px;
+    width: 20px;
+    height: 20px;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+}
+.sec-1-long-arrow-right{
+ transform: rotate(135deg);
+}
+.sec-1-long-arrow-right::after{
+    content: "";
+    display: block;
+    width: 2px;
+    height: 474px;
+    background-color: white;
+    transform: rotate(-45deg) translate(167px, 67px);
+  
+}
+.sec-1-long-arrow-right{
+    display: block;
+    width: 13px;
+    height: 13px;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+}
 
+/* section 1 star img styles */
+
+.sec-1-star-img-div{
+    margin-top: 38px;
+}
+
+.sec-1-star-img{
+    margin-left: 5.15px;
+    width: 19.85;
+    height: 18.59;
+    margin-bottom: 15px;
+}
+
+.sec-1-star-content{
+    margin-top: 15px;
+}
+.sec-1-star-content-style{
+    font-weight: bold;
+}
 
 
 
