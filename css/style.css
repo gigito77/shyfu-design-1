@@ -36,6 +36,7 @@
     display: block;
     width: 42%;
     height: 4px;
+    border-radius: 5px;
     background-color: #E93737;   
     
 }
