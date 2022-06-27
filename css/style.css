@@ -330,7 +330,7 @@
     height: 53px;
     margin-top: -10px;
 }
-.test{
+.sec-1-div-2-creator-img-align{
     vertical-align: bottom;
 }
 
@@ -348,5 +348,21 @@
     text-align: center;
     margin-top: 9px;
 }
+
+.sec-1-see-all-link{
+   float: right;
+   font-size: 14px;
+   font-weight: 500;
+   color: white;
+}
+.sec-1-see-all-link-section{
+    width: 594px;
+    margin-top: 20px;
+}
+.clear{
+    clear: both;
+}
+
+
 
 
