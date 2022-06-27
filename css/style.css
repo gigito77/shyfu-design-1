@@ -333,3 +333,20 @@
 .test{
     vertical-align: bottom;
 }
+
+.sec-1-div-2-creator-img-bottom-content-txt1{
+    font-size: 14px;
+    font-weight: bold;
+    color: #E93737;
+    text-align: center;
+    padding-top: 8px;
+}
+.sec-1-div-2-creator-img-bottom-content-txt2{
+    font-size: 11px;
+    font-weight: 500;
+    color: #E93737;
+    text-align: center;
+    margin-top: 9px;
+}
+
+
