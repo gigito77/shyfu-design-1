@@ -131,10 +131,12 @@
 /* section 1 styles */
 .section-1{
     background: linear-gradient(112.82deg, #B53737 0%, #D72626 100%);
+    height: 934px;
 }
 
 .sec1-div1{
     color: white;
+    width: 505px;
 }
 
 .sec-1-content-1{
@@ -205,6 +207,42 @@
     font-weight: bold;
 }
 
+/* featured section styles */
 
 
+.sec-1-featured{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 505px;
+    margin-top: 48px;
+}
+
+
+.sec-1-featured-content{
+    font-weight: 700px;
+    font-size: 20px;
+
+}
+
+.sec-1-featured-divider{
+    width: 505px;
+    height: 2px;
+    background-color: white;
+    margin-top: 19px;
+    margin-bottom: 22px;
+}
+
+
+
+.sec-1-featured-img{
+    margin-left: 15px;
+    vertical-align: middle;
+    
+
+}
+.sec-1-featired-img-2{
+    vertical-align: middle;
+    
+}
 
