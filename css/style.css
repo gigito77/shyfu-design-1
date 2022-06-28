@@ -491,3 +491,57 @@
 .sec-4-link-button:hover{
     background-color: #B93B3B;
 }
+
+/* section 5 styles */
+
+.sec-5-header-title{
+    font-weight: 700;
+    font-size: 36px;
+    color: #B93B3B;
+    text-align: center;
+    margin-top: 135px;
+
+}
+
+.sec-5-step-content-div{
+    border: 1px solid black;
+    width: 420px;
+    height: 102px;
+    border-radius: 10px;
+}
+
+.sec-5-step-content{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    width: 339px;
+    padding-top: 19.66px;
+    padding-left: 20px;
+}
+
+.sec-5-step-content-style{
+    font-weight: bolder;
+}
+
+.sec-5-step-content-div:hover{
+    background-color: #B93B3B;
+    color: white;
+}
+
+.sec-5-step-content-div-helper{
+    margin-top: 77px;
+}
+
+.sec-5-step-div-helper{
+    width: 420px;
+}
+
+.sec-5-img{
+    margin-left: 237px;
+}
+.sec-5-content-helper{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 60px;
+    
+}
