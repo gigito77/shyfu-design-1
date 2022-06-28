@@ -407,31 +407,37 @@
     display: flex;
     align-items: center;
     justify-content:center;
-}
-
-.sec-3-img-content{
     color: white;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
-    margin-bottom: 3px;
-    margin-top: 8px;
 }
 
-.sec-3-comment{
-    width: 220px;
-    font-weight: 700;
+.sec-3-user-comment{
+    width: 225px;
     font-size: 20px;
-    color: white;
-    line-height: 23px;
-    margin-left: 47px;
+    font-weight: 700;
+    margin-left: 45px;
+    
 
 }
-.sec-3-div-style{
+.sec-3-profile-div{
+   
     margin-left: 71px;
-}
-.sec-3-user-img{
-    width: 83;
-    height: 83;
-}
 
+}
+.sec-3-profile-img{
+    width: 85px;
+    height: 85px;
+    margin-left:10px;
+
+}
+.sec-3-user-comment-div-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec-3-profile-content{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 3px;
+    width: 100px;
+
+}
