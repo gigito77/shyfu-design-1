@@ -624,4 +624,17 @@ footer{
     
 }
 
+.footer-icons{
+    width: 24px;
+}
 
+.footer-icon-link{
+    margin-left: 59px;
+}
+
+
+.footer-icon-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
