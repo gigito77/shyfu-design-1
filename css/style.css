@@ -17,14 +17,17 @@
     display: inline-block;
 }
 
-body{
-    overflow: hidden;
-}
+
 /* other styles */
+
+body{
+    overflow-x: hidden;
+}
 .container{  /* container for help to keep sturcture  */
     width: 1240px;
     margin-left: auto;
     margin-right: auto;
+    
 }
 .header-sizes{
     height: 90px;
@@ -106,6 +109,7 @@ body{
 .section-1{
     background: linear-gradient(112.82deg, #B53737 0%, #D72626 100%);
     height: 934px;
+    overflow: hidden;
 }
 
 .sec1-div1{
@@ -281,6 +285,7 @@ body{
     height: 3000px;
     background-color: rgb(255, 255, 255);
     transform: rotate(-45deg) translate(1059.9px, 438px);
+    
   
 }
 .sec-1-long-arrow-left{
