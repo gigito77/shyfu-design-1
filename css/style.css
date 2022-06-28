@@ -545,3 +545,51 @@
     margin-top: 60px;
     
 }
+
+/* section 6 styles */
+
+.section-6{
+    background:linear-gradient(266.95deg, #B11B1B 23.17%, #B83737 71.86%);    
+    margin-top: 119px;
+    color: white;
+}
+
+
+.sec-6-header-title{
+    font-size: 36px;
+    font-weight: 500px;
+    width: 1142px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 52px;
+    
+
+}
+
+.sec-6-content{
+    width: 918px;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 26px;
+}
+
+.sec-6-link-button{
+    color: #E93737;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: white;
+    padding: 18px 40px;
+    border-radius: 10px;
+    
+}
+
+
+.sec-6-link-button-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 77px;
+    padding-bottom: 31px;
+}
