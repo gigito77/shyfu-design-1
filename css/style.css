@@ -486,6 +486,7 @@
     font-weight: 700;
     font-size: 20px;
     padding: 18px 35px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .sec-4-link-button:hover{
@@ -583,6 +584,7 @@
     background-color: white;
     padding: 18px 40px;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     
 }
 
@@ -637,4 +639,13 @@ footer{
     display: flex;
     justify-content: center;
     margin-top: 45px;
+}
+
+.Copyright{
+    display: flex;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.795);
+    font-size: 18px;
+    margin-top: 87px;
+    padding-bottom: 12px;
 }
