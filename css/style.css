@@ -593,3 +593,35 @@
     margin-top: 77px;
     padding-bottom: 31px;
 }
+
+/* footer style */
+footer{
+    margin-top: 81px;
+}
+
+.footer-content-title{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.footer-content{
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 36px;
+}
+
+.footer-content-list{
+    margin-top: 12px;
+}
+
+.footer-content-style{
+    margin-left: 153px;
+}
+
+.footer-content-div-style{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
